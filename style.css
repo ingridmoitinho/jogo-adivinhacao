@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #cb8ccb;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to right top, #2b65bb, #3c71c4, #4b7dcd, #598ad5, #6796de, #769ae1, #849de4, #91a1e7, #a19ce3, #b197dd, #bf91d5, #cb8ccb);
+
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: #2b65bb;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-family: "Press Start 2P", system-ui;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #2166d6;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.feedback {
+    font-weight: bold;
+    color: #8a2367;
+}
+
+.tentativas {
+    color: #2166d6;
+    font-style: bold;
+    font-weight: 500;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #5a77c9;
+    border-radius: 4px;
+    color: #be57be;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5928a7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+    background-color: #25559e;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #2b65bb;
+    font-size: 1rem;
+}
